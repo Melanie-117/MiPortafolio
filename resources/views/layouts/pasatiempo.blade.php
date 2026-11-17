@@ -1,6 +1,6 @@
-<section class="content py-12">
+<section class="content">
     <div class="max-w-7xl mx-auto px-6">
-        <div class="gap-8 items-start border-t border-slate-800/80 pt-12">
+        <div class="gap-8 items-start border-t border-b border-slate-800/80 py-20">
             
             <div class="lg:col-span-4">
                 <span class="text-indigo-400 font-semibold tracking-widest text-lg uppercase">Pasatiempos e Intereses</span>

@@ -6,7 +6,7 @@
         <a href="{{ route('certificaciones') }}" class="text-white hover:text-indigo-400">
             <i class="fas fa-file-alt"></i> Certificaciones
         </a>
-        <a href="#" class="text-white hover:text-indigo-400">
+        <a href="{{ route('home') }}#contacto" class="text-white hover:text-indigo-400">
             <i class="fa-solid fa-envelope"></i> Contacto
         </a>
     </div>

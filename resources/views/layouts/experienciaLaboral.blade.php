@@ -80,7 +80,7 @@
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9hHm3NimdbFWm9BZvJnoHUCvRvVsrvXJl-DzpfykqbKtGoMglB9HT9M8h&s=10" class="w-full h-full object-contain">
                             </div>
                             <div class="border-l-2 border-indigo-500 pl-4 py-1">
-                                <span class="text-lg text-slate-400 font-mono">Febrero - Junio 2024</span>
+                                <span class="text-lg text-slate-400 font-mono">Febrero — Junio 2024</span>
                                 <h4 class="text-white font-medium text-sm">Vanguardia Académica</h4>
                                 <p class="text-slate-400 text-base">Diplomado en diseño gráfico</p>
                             </div>
