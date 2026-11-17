@@ -1,13 +1,19 @@
+# Etapa 1: Compilar assets con Node.js moderno
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY . .
+RUN npm install && npm run build
+
+# Etapa 2: Servidor de producción con PHP y Nginx
 FROM richarvey/nginx-php-fpm:latest
 
-# Instalar Node.js y NPM para compilar Vite
-RUN apk add --update nodejs npm
-
+WORKDIR /var/www/html
 COPY . .
 
-# Instalar dependencias de Composer y compilar Vite en la construcción
+# Copiar los assets compilados desde la etapa anterior
+COPY --from=builder /app/public/build ./public/build
+
 RUN composer install --no-dev --working-dir=/var/www/html
-RUN npm install && npm run build
 
 ENV SKIP_COMPOSER 1
 ENV WEBROOT /var/www/html/public
