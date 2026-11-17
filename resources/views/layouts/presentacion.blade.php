@@ -1,5 +1,5 @@
 <section class="content px-6 min-h-screen flex items-center overflow-hidden">
-    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full py-12">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full py-20">
         <!-- Texto principal -->
         <div class="lg:col-span-7 space-y-6">
             <span class="text-indigo-400 font-semibold tracking-widest text-lg">!HOLA!</span>
