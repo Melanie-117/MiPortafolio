@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/*
+este codigo se obtuvo de la pagina https://prismic.io/blog/css-background-effects
+y se cambio a lo que se necesitaba
+*/
+* {box-sizing:border-box}
+body, html {padding:0; margin:0} 
+body {background:#000000; color:#fff}
+.opaque {position:absolute; top:0; left:0; right:0; bottom:0; opacity:0; background:#d2d6f1;}
+.lt-ie9 .opaque {display:none;}
+.feature {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 100vw;       /* Ocupa solo la mitad derecha de la pantalla */
+    height: 100vh;
+    z-index: 0;
+    background-size: contain; /* Esto obliga a que la imagen se vea íntegra, sin recortes */
+}
+.content {
+    position:relative; 
+    z-index:1; 
+    margin:0 auto;
+}
