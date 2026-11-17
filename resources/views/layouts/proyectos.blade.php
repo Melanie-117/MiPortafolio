@@ -188,7 +188,7 @@
             <div class="mb-8">
                 <span class="text-indigo-400 font-semibold tracking-widest text-lg">DISEÑO E ILLUSTRACIONES</span>
                 <p class="text-slate-400 text-xl leading-relaxed py-3">
-                    Asimismo, diseñé un par de ilustraciones vectoriales personalizadas y maqueté dos plantillas frontend para renovar la interfaz de uno de los sistemas institucionales más antiguos.
+                    Asimismo, creé ilustraciones personalizadas y maqueté dos plantillas frontend para renovar la interfaz de uno de los sistemas institucionales más antiguos.
                 </p>
             </div>
 

@@ -18,8 +18,7 @@
                 </p>
 
                 <p class="text-slate-400 text-xl md:text-lg leading-relaxed">
-                    Además, cuento con un diplomado en <strong class="text-slate-200">Diseño Gráfico</strong> 
-                    (obteniendo una calificación final de 10 por excelencia académica), formación que me brindó bases sólidas en diseño.  
+                    Además, cuento con un diplomado en <strong class="text-slate-200">Diseño Gráfico</strong>, formación que me brindó bases sólidas en diseño.  
                 </p>
 
                 <p class="text-slate-400 text-xl leading-relaxed text-base">

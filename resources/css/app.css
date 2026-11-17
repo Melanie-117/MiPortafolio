@@ -34,3 +34,18 @@ body {background:#000000; color:#fff}
     z-index:1; 
     margin:0 auto;
 }
+
+.animacion1 {
+    opacity: 0;
+    animation: fadeInUp 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -11,19 +11,6 @@
 
     <div class="feature" style="background: url('/images/luna.webp') center center no-repeat;"></div>
     @include('layouts.header')
-    
-    {{-- @include('layouts.presentacion')
 
-    @include('layouts.experienciaLaboral')
-
-    @include('layouts.conocimientos')
-
-    @include('layouts.proyectos')
-
-    @include('layouts.logros')
-
-    @include('layouts.pasatiempo')
-
-    @include('layouts.contacto') --}}
-    
+    @include('layouts.certificados')
 </body>
