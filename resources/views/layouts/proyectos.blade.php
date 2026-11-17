@@ -223,7 +223,7 @@
                 <span class="text-indigo-400 font-semibold tracking-widest text-lg">PROYECTOS PERSONALES</span>
                 <p class="text-slate-400 text-xl leading-relaxed py-3">
                     En paralelo a mi experiencia profesional, 
-                    elaboré poryectos personales que me permitieron poner en practica mis conocimientos y habilidades en desarrollo Frontend y diseño de interfaces.
+                    elaboré proyectos personales que me permitieron poner en practica mis conocimientos y habilidades en desarrollo Frontend y diseño de interfaces.
                 </p>
             </div>
 
@@ -245,7 +245,6 @@
                                 <strong class="text-slate-200">HTML5</strong>,
                                 <strong class="text-slate-200">CSS3</strong>,
                                 <strong class="text-slate-200">JavaScript</strong>,
-                                <strong class="text-slate-200">jQuery</strong>,
                                 <strong class="text-slate-200">jQuery</strong>,
                                 e integré frameworks como <strong class="text-slate-200">Bootstrap 5</strong>.
                             </p>

@@ -83,7 +83,7 @@
                                 Concurso por el 12.º Aniversario de HUION
                             </h4>
                             <p class="text-slate-400 text-xs leading-relaxed line-clamp-3">
-                                Reconocimiento oficial publicado en su cuenta oficial de Instagram y un premio especial.
+                                Reconocimiento publicado en su cuenta oficial de Instagram y un premio especial.
                             </p>
                         </div>
                     </div>
