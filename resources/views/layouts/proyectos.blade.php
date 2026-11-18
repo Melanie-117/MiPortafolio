@@ -328,7 +328,8 @@
                                 <strong class="text-slate-200">CSS3</strong>,
                                 <strong class="text-slate-200">JavaScript</strong>,
                                 <strong class="text-slate-200">jQuery</strong>,
-                                e integré frameworks como <strong class="text-slate-200">Bootstrap 5</strong>.
+                                e integré frameworks como <strong class="text-slate-200">Bootstrap 5</strong>,
+                                desplegándola en <strong class="text-slate-200">GitHub Pages</strong>.
                             </p>
                         </div>
                     </div>
