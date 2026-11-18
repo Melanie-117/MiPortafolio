@@ -1,6 +1,6 @@
 <section class="content py-12">
     <div class="max-w-7xl mx-auto px-6">
-        <div class="mt-20 border-t border-slate-800/80 pt-12">
+        <div class="border-t border-slate-800/80 pt-12">
             <div class="mb-8">
                 <span class="text-indigo-400 font-semibold tracking-widest text-lg">CONOCIMIENTOS</span>
                 <p class="text-slate-400 text-xl leading-relaxed py-3">

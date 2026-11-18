@@ -1,4 +1,4 @@
-<section class="content">
+<section class="content py-12">
     <div class="max-w-7xl mx-auto px-6">
         <div class="border-t border-slate-800/80 pt-12">
             <div class="mb-8">
@@ -74,7 +74,7 @@
                 <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 backdrop-blur-sm transition-all flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center gap-3 mb-6">
-                            <div class="w-10 h-10 rounded-xl bg-rose-500/10 border border-rose-500/20 flex items-center justify-center text-rose-400">
+                            <div class="w-10 h-10 rounded-xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-400">
                                 <i class="fas fa-money-check-alt text-lg"></i>
                             </div>
                             <div>
@@ -84,15 +84,15 @@
 
                         <ul class="space-y-2.5 text-base text-slate-300 mb-6">
                             <li class="flex items-start gap-2">
-                                <span class="text-rose-400 mt-0.5">•</span>
+                                <span class="text-orange-400 mt-0.5">•</span>
                                 Actualización y unificación de las interfaces gráficas del sistema de nómina con base en la plantilla institucional.
                             </li>
                             <li class="flex items-start gap-2">
-                                <span class="text-rose-400 mt-0.5">•</span>
+                                <span class="text-orange-400 mt-0.5">•</span>
                                 Reestructuración y depuración de código.
                             </li>
                             <li class="flex items-start gap-2">
-                                <span class="text-rose-400 mt-0.5">•</span>
+                                <span class="text-orange-400 mt-0.5">•</span>
                                 Optimización de procesos, logrando una reducción en tiempos de cálculo y mejora en el control administrativo.
                             </li>
                         </ul>
@@ -102,7 +102,7 @@
                 <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 backdrop-blur-sm transition-all flex flex-col justify-between group">
                     <div>
                         <div class="flex items-center gap-3 mb-6">
-                            <div class="w-10 h-10 rounded-xl bg-rose-500/10 border border-rose-500/20 flex items-center justify-center text-rose-400">
+                            <div class="w-10 h-10 rounded-xl bg-pink-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400">
                                 <i class="fas fa-boxes text-lg"></i>
                             </div>
                             <div>
@@ -113,11 +113,11 @@
 
                         <ul class="space-y-2.5 text-base text-slate-300 mb-6">
                             <li class="flex items-start gap-2">
-                                <span class="text-rose-400 mt-0.5">•</span>
+                                <span class="text-pink-400 mt-0.5">•</span>
                                 Desarrollo de nueva funcionalidad en el sistema de Catálogo Único de Partes (CUP) para filtrado de datos en múltiples secciones.
                             </li>
                             <li class="flex items-start gap-2">
-                                <span class="text-rose-400 mt-0.5">•</span>
+                                <span class="text-pink-400 mt-0.5">•</span>
                                 Exportación a Excel con codificación por colores, mejorando la identificación y análisis de registros (activos, comercialización y baja).
                             </li>
                         </ul>
@@ -181,10 +181,9 @@
     </div>
 </section>
 
-
 <section class="content">
     <div class="max-w-7xl mx-auto px-6">
-        <div class="mt-20">
+        <div class="pt-12 pb-12">
             <div class="mb-8">
                 <span class="text-indigo-400 font-semibold tracking-widest text-lg">DISEÑO E ILLUSTRACIONES</span>
                 <p class="text-slate-400 text-xl leading-relaxed py-3">
@@ -215,10 +214,9 @@
     </div>
 </section>
 
-
 <section class="content">
     <div class="max-w-7xl mx-auto px-6">
-        <div class="mt-20">
+        <div class="pt-12 pb-12">
             <div class="mb-8">
                 <span class="text-indigo-400 font-semibold tracking-widest text-lg">PROYECTOS PERSONALES</span>
                 <p class="text-slate-400 text-xl leading-relaxed py-3">
