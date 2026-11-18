@@ -4,8 +4,23 @@ WORKDIR /app
 COPY . .
 RUN npm install && npm run build
 
-# Etapa 2: Servidor de producción con PHP y Nginx
-FROM richarvey/nginx-php-fpm:latest
+# Etapa 2: Servidor de producción con PHP y Apache
+FROM php:8.2-apache
+
+# Instalar dependencias del sistema y extensiones necesarias para Laravel (PostgreSQL, etc.)
+RUN apt-get update && apt-get install -y \
+    libpq-dev \
+    git \
+    unzip \
+    && docker-php-ext-install pdo pdo_pgsql
+
+# Habilitar mod_rewrite de Apache para las rutas amigables
+RUN a2enmod rewrite
+
+# Cambiar el DocumentRoot de Apache para que apunte a la carpeta public de Laravel
+ENV APACHE_DOCUMENT_ROOT /var/www/html/public
+RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
+RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf
 
 WORKDIR /var/www/html
 COPY . .
@@ -13,11 +28,8 @@ COPY . .
 # Copiar los assets compilados desde la etapa anterior
 COPY --from=builder /app/public/build ./public/build
 
-RUN composer install --no-dev --working-dir=/var/www/html
-
-ENV SKIP_COMPOSER 1
-ENV WEBROOT /var/www/html/public
-ENV PHP_ERRORS_STDERR 1
-ENV RUN_SCRIPTS 0
+# Instalar Composer
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+RUN composer install --no-dev --optimize-autoloader
 
 EXPOSE 80
