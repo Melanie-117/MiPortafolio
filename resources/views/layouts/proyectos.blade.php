@@ -214,6 +214,126 @@
     </div>
 </section>
 
+
+
+<section class="content">
+    <div class="max-w-7xl mx-auto px-6">
+        <div>
+          
+            <div class="bg-slate-900/60 border border-slate-800 hover:border-indigo-500/40 rounded-2xl mt-10 backdrop-blur-sm transition-all duration-500 shadow-2xl shadow-black/50 overflow-hidden">
+                <div class="px-6 pt-6 pb-2 flex flex-wrap items-center justify-between gap-4 border-b border-slate-800/60">
+                    <div class="flex items-center gap-3">
+                        <div class="w-9 h-9 flex items-center justify-center">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="w-10 h-10 object-contain" alt="Figma">
+                        </div>
+                        <div>
+                            <h3 class="text-white font-bold text-lg sm:text-xl">Maquetación de Plantillas Frontend</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grid de Mockups estilo Navegador -->
+                <div class="p-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    
+                    <!-- Mockup 1 (Desktop) -->
+                    <div class="rounded-xl overflow-hidden border border-slate-700/70 bg-slate-950 shadow-lg group transition-all duration-300 hover:border-indigo-500/50 hover:-translate-y-1">
+                        <!-- Barra superior de navegador -->
+                        <div class="bg-slate-900/90 px-4 py-2.5 border-b border-slate-800 flex items-center justify-between">
+                            <div class="flex items-center gap-1.5">
+                                <span class="w-2.5 h-2.5 rounded-full bg-rose-500/80"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-amber-500/80"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500/80"></span>
+                            </div>
+                            <span class="text-[11px] font-mono text-slate-400 bg-slate-950/80 px-3 py-0.5 rounded-md border border-slate-800">
+                                propuesta-interfaz-01.fig
+                            </span>
+                            <i class="fas fa-expand-alt text-xs text-slate-500 group-hover:text-indigo-400 transition-colors"></i>
+                        </div>
+
+                        <!-- Contenedor de imagen -->
+                        <div class="relative h-72 overflow-hidden">
+                            <img src="{{ asset('images/Desktop.webp') }}" alt="Prototipo Desktop 1" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out">
+                            
+                            <!-- Overlay degradado inferior -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
+                            
+                            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between">
+                                <span class="text-white font-semibold text-sm drop-shadow">Propuesta 01 — Vista Principal</span>
+                                <span class="text-xs text-indigo-300 bg-indigo-950/80 border border-indigo-500/30 px-2.5 py-0.5 rounded-md backdrop-blur-md">UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mockup 2 (Desktop-1) -->
+                    <div class="rounded-xl overflow-hidden border border-slate-700/70 bg-slate-950 shadow-lg group transition-all duration-300 hover:border-pink-500/50 hover:-translate-y-1">
+                        <!-- Barra superior de navegador -->
+                        <div class="bg-slate-900/90 px-4 py-2.5 border-b border-slate-800 flex items-center justify-between">
+                            <div class="flex items-center gap-1.5">
+                                <span class="w-2.5 h-2.5 rounded-full bg-rose-500/80"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-amber-500/80"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500/80"></span>
+                            </div>
+                            <span class="text-[11px] font-mono text-slate-400 bg-slate-950/80 px-3 py-0.5 rounded-md border border-slate-800">
+                                propuesta-interfaz-02.fig
+                            </span>
+                            <i class="fas fa-expand-alt text-xs text-slate-500 group-hover:text-pink-400 transition-colors"></i>
+                        </div>
+
+                        <!-- Contenedor de imagen -->
+                        <div class="relative h-72 overflow-hidden">
+                            <img src="{{ asset('images/Desktop-1.webp') }}" alt="Prototipo Desktop 2" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out">
+                            
+                            <!-- Overlay degradado inferior -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
+                            
+                            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between">
+                                <span class="text-white font-semibold text-sm drop-shadow">Propuesta 02 — Vista Modular</span>
+                                <span class="text-xs text-pink-300 bg-pink-950/80 border border-pink-500/30 px-2.5 py-0.5 rounded-md backdrop-blur-md">Prototipo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Pie de tarjeta: Descripción + Etiquetas + Dos Botones -->
+                <div class="px-6 pb-6 pt-2 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+                    <div class="max-w-2xl space-y-3">
+                        <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+                            Prototipé dos propuestas de interfaz moderna y responsiva para renovar la experiencia de usuario de sistemas heredados, 
+                            priorizando una navegación intuitiva, jerarquía visual clara y alineación con la identidad institucional.
+                        </p>
+                        
+                        <!-- Píldoras de enfoque -->
+                        <div class="flex flex-wrap gap-2 pt-1">
+                            <span class="text-xs text-slate-400 bg-slate-800/80 border border-slate-700/60 px-3 py-1 rounded-full">Diseño Responsivo</span>
+                            <span class="text-xs text-slate-400 bg-slate-800/80 border border-slate-700/60 px-3 py-1 rounded-full">Sistemas de Diseño</span>
+                            <span class="text-xs text-slate-400 bg-slate-800/80 border border-slate-700/60 px-3 py-1 rounded-full">Identidad Corporativa</span>
+                        </div>
+                    </div>
+
+                    <!-- Contenedor de los dos botones -->
+                    <div class="flex flex-wrap items-center gap-3 shrink-0">
+                        <!-- Botón para ver el Lienzo (Enlace de diseño) -->
+                        <a href="https://www.figma.com/design/758ZrzKp5U8eIzXzmhTGV9/Sin-t%C3%ADtulo?node-id=0-1&t=o3Uk5m4aqpjokQn8-1" target="_blank" class="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700 hover:border-slate-600 transition-all duration-300 text-sm font-medium">
+                            <i class="fas fa-layer-group text-xs"></i> Mostrar Lienzo
+                        </a>
+
+                        <!-- Botón para ver el Prototipo Funcional -->
+                        <a href="https://www.figma.com/proto/758ZrzKp5U8eIzXzmhTGV9/Sin-t%C3%ADtulo?node-id=0-1&t=o3Uk5m4aqpjokQn8-1" target="_blank" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:scale-105 transition-all duration-300 text-sm font-semibold">
+                            <i class="fab fa-figma text-base"></i> Ver Prototipo
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
 <section class="content">
     <div class="max-w-7xl mx-auto px-6">
         <div class="pt-12 pb-12">
