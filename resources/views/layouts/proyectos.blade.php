@@ -242,6 +242,10 @@
                         <div class="relative h-72 overflow-hidden bg-slate-950">
                             <img src="{{ asset('images/Desktop-2.webp') }}" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
+                            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between">
+                                <span class="text-white font-semibold text-sm drop-shadow">Vista login y menú</span>
+                                <span class="text-xs text-pink-300 bg-pink-950/80 border border-pink-500/30 px-2.5 py-0.5 rounded-md backdrop-blur-md">Propuesta</span>
+                            </div>
                         </div>
                     </div>
 
@@ -272,6 +276,10 @@
                         <div class="relative h-72 overflow-hidden bg-slate-950">
                             <img src="{{ asset('images/Desktop-1.webp') }}" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
+                            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between">
+                                <span class="text-white font-semibold text-sm drop-shadow">Vista Modular</span>
+                                <span class="text-xs text-pink-300 bg-pink-950/80 border border-pink-500/30 px-2.5 py-0.5 rounded-md backdrop-blur-md">Propuesta</span>
+                            </div>
                         </div>
                     </div>
 
