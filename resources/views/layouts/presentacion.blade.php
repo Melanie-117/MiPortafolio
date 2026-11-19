@@ -14,7 +14,7 @@
 
             <div class="flex flex-wrap items-center gap-4 pt-4">
                 <div class="animacion1 opacity-0 [animation-fill-mode:forwards]" style="animation-delay: 700ms;">
-                    <a href="#" target="_blank" class="flex-1 justify-center transition duration-300 ease-in-out hover:scale-105 bg-[#1A81FF] hover:bg-sky-600 px-4 py-3 rounded-full text-white cursor-pointer flex items-center gap-2 font-medium text-sm sm:text-base whitespace-nowrap">
+                    <a href="{{ asset('pdf/CV_Melanie.pdf') }}" download="CV_Melanie_Rojas.pdf" class="flex-1 justify-center transition duration-300 ease-in-out hover:scale-105 bg-[#1A81FF] hover:bg-sky-600 px-4 py-3 rounded-full text-white cursor-pointer flex items-center gap-2 font-medium text-sm sm:text-base whitespace-nowrap">
                         <i class="fas fa-file-alt"></i> Descargar CV
                     </a>
                 </div>
@@ -22,10 +22,8 @@
         </div>
 
         <div class="lg:col-span-5 flex justify-center animacion1 opacity-0 [animation-fill-mode:forwards]" style="animation-delay: 800ms;">
-            <div class="relative w-72 h-72 sm:w-96 sm:h-96 rounded-3xl bg-gradient-to-br from-indigo-600/20 to-slate-900 border border-slate-800 p-4 shadow-2xl flex items-center justify-center overflow-hidden group">
-                <div class="text-center space-y-3">
-                    <span class="text-indigo-400 text-6xl font-mono">&lt;/&gt;</span>
-                </div>
+            <div class="relative w-100 max-w-sm sm:max-w-md lg:max-w-lg aspect-[3/4] rounded-3xl bg-gradient-to-br from-indigo-600/20 to-slate-900 overflow-hidden">
+                <img src="{{ asset('images/yo.webp') }}" class="w-full h-full object-cover">
             </div>
         </div>
     </div>

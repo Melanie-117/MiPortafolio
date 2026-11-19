@@ -225,7 +225,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-                <div class="bg-slate-900/60 border border-slate-800 hover:border-indigo-500/50 rounded-2xl backdrop-blur-sm transition-all duration-500 shadow-xl overflow-hidden flex flex-col justify-between group">
+                {{-- <div class="bg-slate-900/60 border border-slate-800 hover:border-indigo-500/50 rounded-2xl backdrop-blur-sm transition-all duration-500 shadow-xl overflow-hidden flex flex-col justify-between group">
                     <div>
                         <!-- Barra superior estilo navegador -->
                         <div class="bg-slate-900/90 px-4 py-3 border-b border-slate-800/80 flex items-center justify-between">
@@ -257,7 +257,7 @@
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="w-5 h-5 object-contain" alt="Figma"> Ver Prototipo
                         </a>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="bg-slate-900/60 border border-slate-800 hover:border-indigo-500/50 rounded-2xl backdrop-blur-sm transition-all duration-500 shadow-xl overflow-hidden flex flex-col justify-between group">
                     <div>

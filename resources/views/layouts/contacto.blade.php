@@ -6,16 +6,24 @@
         </p>
 
         <div class="flex flex-wrap items-center justify-center gap-3 my-8">
+            <a
+                href="https://wa.me/525520056754?text=%C2%A1Hola%20Melanie!%20Vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20ponerme%20en%20contacto%20contigo."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="px-4 py-2.5 rounded-xl bg-emerald-600/20 hover:bg-emerald-600/30 border border-emerald-500/40 hover:border-emerald-400 text-emerald-300 hover:text-white text-xs sm:text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap"
+            >
+                <i class="fab fa-whatsapp text-base"></i> WhatsApp
+            </a>
             <a href="tel:5520056754" class="px-4 py-2.5 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-slate-600 text-slate-300 hover:text-white text-xs sm:text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap">
                 <i class="fas fa-mobile text-sm"></i> 55 2005 6754
             </a>
             <a href="mailto:rojasmelanie700@gmail.com" class="px-4 py-2.5 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-slate-600 text-slate-300 hover:text-white text-xs sm:text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap">
                 <i class="fas fa-envelope text-sm"></i> Correo
             </a>
-            <a href="http://github.com/Melanie-117" target="_blank" class="w-10 h-10 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-slate-600 text-slate-300 hover:text-white flex items-center justify-center transition-all">
+            <a href="https://github.com/Melanie-117" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-slate-600 text-slate-300 hover:text-white flex items-center justify-center transition-all">
                 <i class="fab fa-github text-base"></i>
             </a>
-            <a href="https://www.linkedin.com/in/melanie-rojas-95b029282?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="w-10 h-10 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-slate-600 text-slate-300 hover:text-white flex items-center justify-center transition-all">
+            <a href="https://www.linkedin.com/in/melanie-rojas-95b029282?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-slate-600 text-slate-300 hover:text-white flex items-center justify-center transition-all">
                 <i class="fab fa-linkedin-in text-base"></i>
             </a>
         </div>
