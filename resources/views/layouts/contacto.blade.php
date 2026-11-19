@@ -23,7 +23,7 @@
             <a href="https://github.com/Melanie-117" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-slate-600 text-slate-300 hover:text-white flex items-center justify-center transition-all">
                 <i class="fab fa-github text-base"></i>
             </a>
-            <a href="https://www.linkedin.com/in/melanie-rojas-95b029282?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-slate-600 text-slate-300 hover:text-white flex items-center justify-center transition-all">
+            <a href="https://www.linkedin.com/in/melanie-josselyn-rojas-luna-95b029282/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-slate-600 text-slate-300 hover:text-white flex items-center justify-center transition-all">
                 <i class="fab fa-linkedin-in text-base"></i>
             </a>
         </div>

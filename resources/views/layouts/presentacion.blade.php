@@ -1,7 +1,7 @@
 <section class="content px-6 min-h-screen flex items-center overflow-hidden">
     <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full py-20">
         <!-- Columna izquierda: presentación -->
-        <div class="lg:col-span-7 space-y-6">
+        <div class="order-1 sm:order-1 lg:col-span-7 space-y-6">
             <span class="text-indigo-400 font-semibold tracking-widest text-lg animacion1 opacity-0 [animation-fill-mode:forwards]" style="animation-delay: 100ms;">
                 ¡HOLA!
             </span>
@@ -27,13 +27,11 @@
         </div>
 
         <!-- Columna derecha: retrato destacado -->
-        <div class="lg:col-span-5 flex justify-center animacion1 opacity-0 [animation-fill-mode:forwards]" style="animation-delay: 800ms;">
+        <div class="order-2 sm:order-2 lg:col-span-5 flex justify-center animacion1 opacity-0 [animation-fill-mode:forwards]" style="animation-delay: 800ms;">
             <div class="relative w-full max-w-sm sm:max-w-md lg:max-w-lg group">
                 <div class="relative w-full aspect-[3/4] rounded-3xl p-2 bg-gradient-to-br from-indigo-400/40 via-white/10 overflow-hidden">
                     <div class="w-full h-full rounded-[1.25rem] overflow-hidden bg-slate-950 relative">
-                        <img src="{{ asset('images/yo.webp') }}"class="w-full h-full object-cover object-top">
-                        <!-- Degradado sutil en la base para dar profundidad -->
-                        <div class="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-slate-950/85 via-slate-950/30 to-transparent"></div>
+                        <img src="{{ asset('images/yo.webp') }}" alt="Melanie Josselyn Rojas Luna" class="w-full h-full object-cover object-top">
                     </div>
                 </div>
 
